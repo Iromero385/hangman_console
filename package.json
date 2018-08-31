@@ -1,0 +1,24 @@
+{
+  "name": "hangman_console",
+  "version": "1.0.0",
+  "description": "hangman using terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iromero385/hangman_console.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iromero385/hangman_console/issues"
+  },
+  "homepage": "https://github.com/Iromero385/hangman_console#readme",
+  "dependencies": {
+    "init": "^0.1.2",
+    "inquirer": "^6.2.0"
+  }
+}
