@@ -10,7 +10,7 @@ function Word(word){
     this.wordDisplay = ()=>{
         var tempString = "";
         this.dataWord.forEach(element => {
-            tempString += element.display();
+            tempString += element.display() + " ";
         });
         return tempString;
     }

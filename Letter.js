@@ -15,6 +15,9 @@ function Letter(letter){
             this.guessRight=true;
         }
     };
+    if(this.letter == " "){
+        this.guessRight = true; 
+    }
 
 }
 
