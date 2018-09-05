@@ -84,7 +84,7 @@ function runGame() {
 }
 function resetGame(){
   var seed = Math.floor(Math.random()*WordBank.length);
-  newGuess = new Word(WordBank[6]);
+  newGuess = new Word(WordBank[seed]);
   numberofGuesses = 10;
   listOfGuesses = [];
   
