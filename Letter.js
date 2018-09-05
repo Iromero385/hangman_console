@@ -13,10 +13,13 @@ function Letter(letter){
     this.checkLetter = function(userLetter){
         if(this.letter === userLetter){
             this.guessRight=true;
+            return true;
         }
+        
     };
     if(this.letter == " "){
-        this.guessRight = true; 
+        this.guessRight = true;
+        return 0 
     }
 
 }

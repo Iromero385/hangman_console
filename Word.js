@@ -16,9 +16,11 @@ function Word(word){
         return tempString;
     }
     this.checkAllLetters = function(letter){
+        var correct = false;
         this.dataWord.forEach(function(element){
-            element.checkLetter(letter);
+            element.checkLetter(letter);  
         })
+        
     }
     this.wordIsGuess = function(){
         var counter= 0; 
